@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My GitHub Page</title>
+    <title>Time Server</title>
   </head>
   <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a basic HTML page for my GitHub Pages website.</p>
+    <script>
+      function getTime() {
+        var d = new Date();
+        return d.getTime();
+      }
+      document.write(getTime());
+    </script>
   </body>
 </html>
